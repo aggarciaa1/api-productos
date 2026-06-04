@@ -1,7 +1,7 @@
 using Api_productos.Models;
 using Api_productos.Services;
 using Microsoft.AspNetCore.Mvc;
-using ErrorPrueba;
+
 namespace Api_productos.Controllers;
 
 [ApiController]
@@ -19,7 +19,7 @@ public class CustomersController : ControllerBase
     public IActionResult GetAll()
     {
         return Ok(_service.GetAll());
-        
+
     }
 
     [HttpGet("{id}")]
