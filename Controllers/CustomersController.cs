@@ -19,6 +19,7 @@ public class CustomersController : ControllerBase
     public IActionResult GetAll()
     {
         return Ok(_service.GetAll());
+        
     }
 
     [HttpGet("{id}")]
