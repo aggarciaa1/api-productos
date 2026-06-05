@@ -15,11 +15,11 @@ builder.Services.AddHealthChecks();
 var app = builder.Build();
 
 // Swagger
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 // Métricas
 app.UseHttpMetrics();

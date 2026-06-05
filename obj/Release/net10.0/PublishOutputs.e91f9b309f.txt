@@ -1,0 +1,16 @@
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Api-productos
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/appsettings.Development.json
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/appsettings.json
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Api-productos.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Api-productos.deps.json
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Api-productos.runtimeconfig.json
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Api-productos.pdb
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/HealthChecks.UI.Client.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/HealthChecks.UI.Core.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Microsoft.AspNetCore.OpenApi.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Microsoft.OpenApi.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Prometheus.NetStandard.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Prometheus.AspNetCore.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Release/net10.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

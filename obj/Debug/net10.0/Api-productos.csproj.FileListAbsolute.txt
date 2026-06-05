@@ -38,3 +38,4 @@
 /Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/allangabrielgarcia/Desktop/SRE/Developer/Api-productos/obj/Debug/net10.0/Api-productos.sourcelink.json
