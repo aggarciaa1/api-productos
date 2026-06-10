@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: api-productos
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: api-productos
+
+  template:
+    metadata:
+      labels:
+        app: api-productos
+
+    spec:
+      containers:
+      - name: api-productos
+        image: allang1/api-productos:latest
+
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 8080
