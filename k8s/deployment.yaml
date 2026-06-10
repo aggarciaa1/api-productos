@@ -25,3 +25,16 @@ spec:
 
         ports:
         - containerPort: 8080
+
+        env:
+        - name: APP_VERSION
+          valueFrom:
+            configMapKeyRef:
+              name: api-productos-config
+              key: APP_VERSION
+
+        - name: APP_ENVIRONMENT
+          valueFrom:
+            configMapKeyRef:
+              name: api-productos-config
+              key: APP_ENVIRONMENT

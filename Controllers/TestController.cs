@@ -12,8 +12,9 @@ public class TestController : ControllerBase
         return Ok(new
         {
             mensaje = "Hola Kubernetes",
-            version = "2.0",
-            sha = Environment.GetEnvironmentVariable("GITHUB_SHA")
+            version = Environment.GetEnvironmentVariable("APP_VERSION"),
+            environment = Environment.GetEnvironmentVariable("APP_ENVIRONMENT"),
+            
         });
     }
 }
