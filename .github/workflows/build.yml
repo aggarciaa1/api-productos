@@ -31,4 +31,4 @@ jobs:
           push: true
           tags: |
             allang1/api-productos:latest
-            allang1/api-productos:${{ github.sha }}s
+            allang1/api-productos:${{ github.sha }}

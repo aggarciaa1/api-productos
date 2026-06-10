@@ -12,7 +12,7 @@ public class TestController : ControllerBase
         return Ok(new
         {
             mensaje = "Hola Kubernetes",
-            version = "2.0"
+            version = "3.0"
         });
     }
 }
