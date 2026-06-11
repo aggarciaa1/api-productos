@@ -27,6 +27,7 @@ spec:
         - containerPort: 8080
 
         env:
+
         - name: APP_VERSION
           valueFrom:
             configMapKeyRef:
@@ -38,3 +39,21 @@ spec:
             configMapKeyRef:
               name: api-productos-config
               key: APP_ENVIRONMENT
+
+        - name: DB_USER
+          valueFrom:
+            secretKeyRef:
+              name: api-productos-secret
+              key: DB_USER
+
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: api-productos-secret
+              key: DB_PASSWORD
+
+        - name: API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: api-productos-secret
+              key: API_KEY
