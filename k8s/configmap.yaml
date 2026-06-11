@@ -5,4 +5,4 @@ metadata:
 
 data:
   APP_VERSION: "2.0"
-  APP_ENVIRONMENT: "DEV"
+  APP_ENVIRONMENT: "QA"

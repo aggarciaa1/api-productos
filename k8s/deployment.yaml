@@ -27,7 +27,6 @@ spec:
         - containerPort: 8080
 
         env:
-
         - name: APP_VERSION
           valueFrom:
             configMapKeyRef:
@@ -57,3 +56,17 @@ spec:
             secretKeyRef:
               name: api-productos-secret
               key: API_KEY
+
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 15
+          periodSeconds: 10
+
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 5
