@@ -4,5 +4,5 @@ metadata:
   name: api-productos-config
 
 data:
-  APP_VERSION: "2.0"
-  APP_ENVIRONMENT: "QA"
+  APP_VERSION: "2.0.1"
+  APP_ENVIRONMENT: "DEV"
